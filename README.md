@@ -154,9 +154,7 @@ submission/
 
 ├── docker-compose.yml
 
-└── README.md
-
-  </span></span></code></div></div></pre>
+└── README.md</span></span></code></div></div></pre>
 
 * * * * *
 
@@ -244,6 +242,7 @@ Fetch Users
 
 <img width="1360" height="202" alt="Screenshot from 2025-11-08 16-01-57" src="https://github.com/user-attachments/assets/0b96df43-ca9e-45b1-a07f-91010094409f" />
 
+---
 
 Fetch Products
 
@@ -251,6 +250,7 @@ Fetch Products
 
 <img width="1360" height="202" alt="Screenshot from 2025-11-08 15-59-55" src="https://github.com/user-attachments/assets/51baf432-7b39-414a-81a7-a960d1fa61e0" />
 
+---
 
 Create an Order
 
@@ -258,9 +258,21 @@ Create an Order
   -H "Content-Type: application/json"
   -d '{"userId":1,"productId":2}'`
 
+  <img width="1317" height="126" alt="Screenshot from 2025-11-08 16-07-38" src="https://github.com/user-attachments/assets/1bb36c95-a398-496d-85ec-1ae18a95a441" />
+  
+---
+
 Get All Orders
 
 `curl http://localhost:3003/api/orders`
+
+<img width="1360" height="202" alt="Screenshot from 2025-11-08 16-05-58" src="https://github.com/user-attachments/assets/c1e18dea-f679-4950-8e12-e3207b29da2f" />
+
+---
+
+<img width="1366" height="176" alt="Screenshot from 2025-11-08 16-08-55" src="https://github.com/user-attachments/assets/500cd45e-66ee-4610-8879-4677c8785225" />
+
+
 
 If all endpoints respond successfully, the system is fully operational.
 
